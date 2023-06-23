@@ -1,0 +1,68 @@
+{
+  "introductions": {
+    "homepage": [
+      {
+        "id": 1,
+        "img": "reusable",
+        "title": "Hooks",
+        "description": "To manage states. Returns a stateful value and an updater function to update it."
+      },
+      {
+        "id": 2,
+        "img": "routes",
+        "title": "Routing",
+        "description": "To manage side-effects like API calls, subscriptions, timers, mutations, and more."
+      }
+    ],
+    "hooks": [
+      {
+        "id": 1,
+        "img": "books",
+        "title": "UseState",
+        "description": "To manage states. Returns a stateful value and an updater function to update it."
+      },
+      {
+        "id": 2,
+        "img": "books",
+        "title": "useEffect",
+        "description": "To manage side-effects like API calls, subscriptions, timers, mutations, and more."
+      },
+      {
+        "id": 3,
+        "img": "books",
+        "title": "useContext",
+        "description": "To return the current value for a context."
+      },
+      {
+        "id": 4,
+        "img": "books",
+        "title": "useCallback",
+        "description": "It returns a memorized version of a callback to help a child component not re-render unnecessarily."
+      },
+      {
+        "id": 5,
+        "img": "books",
+        "title": "useMemo",
+        "description": "It returns a memoized value that helps in performance optimizations."
+      },
+      {
+        "id": 6,
+        "img": "books",
+        "title": "useLayoutEffect",
+        "description": "It fires at the end of all DOM mutations. It's best to use useEffect as much as possible over this one as the useLayoutEffect fires synchronously."
+      },
+      {
+        "id": 7,
+        "img": "books",
+        "title": "useDebugValue",
+        "description": "Helps to display a label in React DevTools for custom hooks."
+      },
+      {
+        "id": 8,
+        "img": "books",
+        "title": "useXXX-custom hooks",
+        "description": "some description for usestate"
+      }
+    ]
+  }
+}
