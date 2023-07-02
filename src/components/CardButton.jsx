@@ -1,50 +1,46 @@
 import * as React from "react";
-import Card from "@mui/material/Card";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import { CardActionArea } from "@mui/material";
-import images from "../assets/images";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+
+import Typography from "@mui/material/Typography";
+import { ImageCard, ImageCardActionArea, ImageCardContent } from "./ImageCard";
+
+import useColorRandomizer from "../hooks/useColorRandomizer";
 
 export default function CardButton(props) {
   const navigate = useNavigate();
 
-  const id = props.id;
+  const route = props.route;
   const title = props.title;
   const description = props.description;
-  const image = props.image;
+
+  const [initialized, setInitialized] = useState(false);
+  const [colorGrpId, setColorGrpId] = useState("");
+  const { id, textColorCode, backgroundColorCode } =
+    useColorRandomizer(colorGrpId);
+
+  useEffect(() => {
+    if (!initialized) setInitialized(true);
+    else setColorGrpId(id);
+  }, [id, initialized]);
 
   const clickHandler = () => {
-    navigate(`${title}`);
+    navigate(`${route}`);
   };
 
   return (
-    <Card
-      sx={{
-        maxWidth: 345,
-        height: 400,
-        background: "#FFF8F0",
-        borderRadius: "20px",
-      }}
-    >
-      <CardActionArea onClick={() => clickHandler(id)}>
-        <CardMedia
-          component="img"
-          height="250"
-          image={images[`${image}`]}
-          alt={title}
-          loading="lazy"
-        />
-        <CardContent sx={{ padding: "5px 10px 5px 10px" }}>
-          <Typography gutterBottom variant="h5" component="div">
+    <ImageCard id="card-button">
+      <ImageCardActionArea onClick={clickHandler}>
+        <ImageCardContent
+          background={backgroundColorCode}
+          color={textColorCode}
+        >
+          <Typography variant="h5" component="div">
             {title}
           </Typography>
-          <Typography variant="h6" color="text.secondary">
-            {description}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+          <Typography variant="h6">{description}</Typography>
+        </ImageCardContent>
+      </ImageCardActionArea>
+    </ImageCard>
   );
 }

@@ -9,11 +9,15 @@ function App() {
     <BrowserRouter>
       <NavigationBar />
       <Container
-        maxWidth={"lg"}
+        id="main-container"
+        maxWidth="md"
         sx={{
-          backgroundColor: "primary.light",
-          height: "100vh",
-          paddingTop: "100px",
+          backgroundColor: "secondary.light",
+          height: "100%",
+          minHeight: "100vh",
+          paddingTop: "2%",
+          marginTop: "50px",
+          display: "flex",
         }}
       >
         <Routes>

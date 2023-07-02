@@ -10,6 +10,7 @@ const NavigationBar = () => {
   };
   return (
     <Box
+      id="navigation-bar-box"
       sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
     >
       <AppBar position="fixed">
