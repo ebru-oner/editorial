@@ -1,11 +1,4 @@
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  Box,
-  Grid,
-} from "@mui/material";
+import { Typography, Grid } from "@mui/material";
 
 import images from "../assets/images";
 

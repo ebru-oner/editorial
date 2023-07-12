@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import {
   AppBar,
   Box,
@@ -8,8 +11,6 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 const navItems = [
   { title: "Home", route: "/" },

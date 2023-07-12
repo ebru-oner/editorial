@@ -1,7 +1,8 @@
 import React from "react";
 
-import staticData from "../assets/data/data.json";
 import { Grid } from "@mui/material";
+
+import staticData from "../assets/data/data.json";
 import CardButton from "../components/CardButton";
 import HeroImage from "../components/HeroImage";
 

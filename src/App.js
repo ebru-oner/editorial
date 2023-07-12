@@ -5,7 +5,6 @@ import routes from "./routes";
 import backgroundImage from "./assets/images/bg.webp";
 import { Box } from "@mui/system";
 import Footer from "./components/Footer";
-import { Grid } from "@mui/material";
 
 function App() {
   return (
@@ -21,8 +20,6 @@ function App() {
       >
         <NavigationBar />
         <Box
-          item
-          xs={12}
           id="main-container"
           sx={{
             width: "90%",
