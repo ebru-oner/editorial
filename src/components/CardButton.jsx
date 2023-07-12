@@ -1,11 +1,16 @@
 import * as React from "react";
-import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 import Typography from "@mui/material/Typography";
-import { ImageCard, ImageCardActionArea, ImageCardContent } from "./ImageCard";
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  CardMedia,
+} from "@mui/material";
 
-import useColorRandomizer from "../hooks/useColorRandomizer";
+import images from "../assets/images";
 
 export default function CardButton(props) {
   const navigate = useNavigate();
@@ -13,34 +18,44 @@ export default function CardButton(props) {
   const route = props.route;
   const title = props.title;
   const description = props.description;
-
-  const [initialized, setInitialized] = useState(false);
-  const [colorGrpId, setColorGrpId] = useState("");
-  const { id, textColorCode, backgroundColorCode } =
-    useColorRandomizer(colorGrpId);
-
-  useEffect(() => {
-    if (!initialized) setInitialized(true);
-    else setColorGrpId(id);
-  }, [id, initialized]);
+  const image = props.img;
+  const imageDescription = props.imageDescription;
 
   const clickHandler = () => {
-    navigate(`${route}`);
+    navigate(`data/${route}`);
   };
 
   return (
-    <ImageCard id="card-button">
-      <ImageCardActionArea onClick={clickHandler}>
-        <ImageCardContent
-          background={backgroundColorCode}
-          color={textColorCode}
-        >
-          <Typography variant="h5" component="div">
-            {title}
-          </Typography>
-          <Typography variant="h6">{description}</Typography>
-        </ImageCardContent>
-      </ImageCardActionArea>
-    </ImageCard>
+    <Card
+      sx={{
+        height: "25rem",
+        display: "flex",
+        justifyContent: "space-between",
+        flexDirection: "column",
+      }}
+    >
+      <CardMedia
+        component="img"
+        alt={imageDescription}
+        sx={{ height: "14rem" }}
+        image={images[`${image}_600x600`]}
+      />
+      <CardContent sx={{ height: "8rem" }}>
+        <Typography gutterBottom variant="h5" component="div">
+          {title}
+        </Typography>
+        <Typography gutterBottom variant="subtitle1" component="div" noWrap>
+          {description}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small" color="secondary">
+          Share
+        </Button>
+        <Button onClick={clickHandler} size="small" color="secondary">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
   );
 }

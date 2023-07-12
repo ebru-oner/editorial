@@ -3,27 +3,44 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     background: {
-      default: "#FFF8F0",
+      default: "#fff",
     },
     primary: {
       light: "#FBFEFB",
-      main: "#474350",
-      dark: "#FCFFEB",
-      contrastText: "#FFFFF0",
+      main: "#FBFEFB",
+      dark: "#5C374C",
+      contrastText: "#474350",
     },
     text: {
-      primary: "#FCFFEB",
+      primary: "#5C374C",
       secondary: "#FBFEFB",
     },
     secondary: {
       light: "#F1F0CC",
-      main: "#FBFEFB",
+      main: "#846C5B",
       dark: "#EBD494",
       contrastText: "#FBFEFB",
     },
   },
+  components: {
+    MuiTypography: {
+      styleOverrides: {
+        noWrap: {
+          whiteSpace: "initial",
+          overflow: "hidden",
+          textOverflow: "ellipsis",
+          display: "-webkit-box",
+          WebkitLineClamp: "2",
+          WebkitBoxOrient: "vertical",
+        },
+      },
+    },
+  },
   typography: {
-    fontFamily: ["Ubuntu", "sans-serif"].join(","),
+    h3: {
+      fontFamily: ["Shadows Into Light", "cursive"].join(","),
+    },
+    fontFamily: ["Shantell Sans", "cursive"].join(","),
   },
 });
 

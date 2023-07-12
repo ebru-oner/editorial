@@ -1,24 +1,63 @@
-import * as React from "react";
+import React from "react";
 
+import staticData from "../assets/data/data.json";
+import { Grid } from "@mui/material";
 import CardButton from "../components/CardButton";
-import staticData from "../assets/data/introductions.json";
-import { Masonry } from "@mui/lab";
+import HeroImage from "../components/HeroImage";
 
 const HomePage = () => {
-  const items = staticData.introductions.homepage;
+  const items = staticData.summaries;
+  const itemSize = items.allIds.length - 1;
+  const latestPost = staticData.summaries.allIds[itemSize];
 
   return (
-    <Masonry id="use-state-hook-image-list" columns={3} spacing={2}>
-      {Object.values(items).map((item) => (
-        <CardButton
-          key={item.id}
-          title={item.title}
-          route={item.route}
-          description={item.description}
-          image={item.img}
+    <Grid
+      container
+      id="home-page-grid-container"
+      sx={{
+        justifyContent: "center",
+        alignItems: "center",
+        width: "90%",
+        height: "90%",
+        overflow: "scroll",
+      }}
+    >
+      <Grid
+        id="home-page-grid-hero-image"
+        item
+        sx={{ width: "100%", marginBottom: "10%" }}
+      >
+        <HeroImage
+          title={items.byId[latestPost].title}
+          route={items.byId[latestPost].route}
+          description={items.byId[latestPost].description}
+          img={items.byId[latestPost].img}
+          withText={true}
         />
-      ))}
-    </Masonry>
+      </Grid>
+      <Grid id="home-page-grid-topic-cards" item sx={{ width: "100%" }}>
+        <Grid container spacing={8}>
+          {Object.values(items.byId).map((item, index) => (
+            <Grid
+              item
+              xs={12}
+              sm={6}
+              md={4}
+              lg={4}
+              key={index}
+              sx={{ width: "100%" }}
+            >
+              <CardButton
+                img={item.img}
+                route={item.route}
+                title={item.title}
+                description={item.description}
+              />
+            </Grid>
+          ))}
+        </Grid>
+      </Grid>
+    </Grid>
   );
 };
 

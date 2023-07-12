@@ -1,37 +1,53 @@
-import { Container } from "@mui/material";
-
 import NavigationBar from "./components/NavigationBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import routes from "./routes";
 
+import backgroundImage from "./assets/images/bg.webp";
+import { Box } from "@mui/system";
+import Footer from "./components/Footer";
+import { Grid } from "@mui/material";
+
 function App() {
   return (
     <BrowserRouter>
-      <NavigationBar />
-      <Container
-        id="main-container"
-        maxWidth="md"
+      <Box
         sx={{
-          backgroundColor: "secondary.light",
-          height: "100%",
-          minHeight: "100vh",
-          paddingTop: "2%",
-          marginTop: "50px",
+          backgroundImage: `url("${backgroundImage}")`,
           display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
-        <Routes>
-          {routes.map((route) => {
-            return (
-              <Route
-                path={route.path}
-                element={route.element}
-                key={route.path}
-              />
-            );
-          })}
-        </Routes>
-      </Container>
+        <NavigationBar />
+        <Box
+          item
+          xs={12}
+          id="main-container"
+          sx={{
+            width: "90%",
+            backgroundColor: "primary.light",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            paddingTop: "5rem",
+            marginBottom: "-1px",
+          }}
+        >
+          <Routes>
+            {routes.map((route) => {
+              return (
+                <Route
+                  path={route.path}
+                  element={route.element}
+                  key={route.path}
+                />
+              );
+            })}
+          </Routes>
+        </Box>
+        <Footer />
+      </Box>
     </BrowserRouter>
   );
 }
