@@ -3,44 +3,56 @@
     "byId": {
       "routing": {
         "route": "routing",
-        "img": "routes",
-        "imgDescription": "image description",
+        "image": {
+          "source": "routes",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Routing",
         "description": "To manage side-effects like API calls, subscriptions, timers, mutations, and more."
       },
 
       "hooks": {
         "route": "hooks",
-        "img": "hooks",
-        "imgDescription": "image description",
+        "image": {
+          "source": "hooks",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Hooks",
         "description": "Helpers to remember, organize and manage things in the code."
       },
       "designthinking": {
         "route": "designthinking",
-        "img": "designthinking",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinking",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Design Thinking",
         "description": "...."
       },
       "wireframes": {
         "route": "wireframes",
-        "img": "wireframes",
-        "imgDescription": "image description",
+        "image": {
+          "source": "wireframes",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Wireframes",
         "description": "...."
       },
       "outofthebox": {
         "route": "outofthebox",
-        "img": "outofthebox",
-        "imgDescription": "image description",
+        "image": {
+          "source": "outofthebox",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Think out of the box",
         "description": "...."
       },
       "tipsandtricks": {
         "route": "tipsandtricks",
-        "img": "tipsandtricks",
-        "imgDescription": "image description",
+        "image": {
+          "source": "tipsandtricks",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "React Tips&Tricks",
         "description": "...."
       }
@@ -59,7 +71,10 @@
       "tipsandtricks": {
         "id": "post1",
         "title": "Tips&Tricks for  React",
-        "heroimg": "tipsandtricks",
+        "heroimage": {
+          "source": "tipsandtricks",
+          "description": "A key to unlock your creative potential."
+        },
         "chapters": [
           "post1_1",
           "post1_2",
@@ -72,7 +87,10 @@
       "routing": {
         "id": "post2",
         "title": "Routing in React",
-        "heroimg": "routing",
+        "heroimage": {
+          "source": "routing",
+          "description": "A key to unlock your creative potential."
+        },
         "chapters": [
           "post2_1",
           "post2_2",
@@ -85,25 +103,37 @@
       "hooks": {
         "id": "post3",
         "title": "Hooks",
-        "heroimg": "hooks",
+        "heroimage": {
+          "source": "hooks",
+          "description": "A key to unlock your creative potential."
+        },
         "chapters": ["post3_1", "post3_2", "post3_3", "post3_4", "post3_5"]
       },
       "designthinking": {
         "id": "post4",
         "title": "Design Thinking",
-        "heroimg": "designthinking",
+        "heroimage": {
+          "source": "designthinking",
+          "description": "A key to unlock your creative potential."
+        },
         "chapters": ["post4_1", "post4_2", "post4_3", "post4_4", "post4_5"]
       },
       "wireframes": {
         "id": "post5",
         "title": "Wireframes",
-        "heroimg": "wireframes",
+        "heroimage": {
+          "source": "wireframes",
+          "description": "A key to unlock your creative potential."
+        },
         "chapters": ["post5_1", "post5_2", "post5_3", "post5_4", "post5_5"]
       },
       "outofthebox": {
         "id": "post6",
         "title": "Think out of the box",
-        "heroimg": "outofthebox",
+        "heroimage": {
+          "source": "thinkoutofthebox",
+          "description": "A key to unlock your creative potential."
+        },
         "chapters": ["post6_1", "post6_2", "post6_3", "post6_4", "post6_5"]
       }
     },
@@ -112,325 +142,498 @@
   "chapters": {
     "byId": {
       "post1_1": {
-        "image": "books",
-        "imgDescription": "image description",
+        "image": {
+          "source": "",
+          "description": ""
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post1_2": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "",
+          "description": ""
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post1_3": {
-        "image": "outofthebox",
-        "imgDescription": "image description",
+        "image": {
+          "source": "",
+          "description": ""
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post1_4": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post1_5": {
-        "imgDescription": "image description",
-        "image": "",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post1_6": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post2_1": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post2_2": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post2_3": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post2_4": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post2_5": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post2_6": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post3_1": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post3_2": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post3_3": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post3_4": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post3_5": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
-
       "post4_1": {
-        "image": "",
-        "imgDescription": "image description",
-        "title": "Parts of a book",
-        "principalText": {
-          "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
-          "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+        "title": "Why do you need design thinking?",
+        "quote": {
+          "text": "Questioning and fantasy are two prime requisites of the creative personality.",
+          "owner": "John E.Arnold"
+        },
+        "principaltext": {
+          "prologue": "Understanding the need to design thinking is crucial before delving into the various colorful and diverse drawings that illustrate the phases of design thinking.",
+          "main": [
+            "Desing thinking is a mindset rather than steps of processes. It encourages to understand actual, underlying causes of the problem and going beyond surface-level observations. Helps to discover breakthrough ideas that may initially seemed far-fetched. Think beyond boundaries and end up with innovative solutions. Iterate on the solutions and adapt on the feedback.",
+            "Solving problems brings immense satisfaction, and sometimes we can even predict the solution before the person finishes describing it. This ability reflects our strong problem-solving skills. However, design thinking goes beyond solving problems it helps to solve practical or complex problems in a creative way and in the end valuable way. It is not limited to a specific industry as the name implies. It can be applied to product design, service improvement, social issues, personal development."
+          ],
+          "epilogue": "In essence design thinking is a key to unlock your creative potential and leading you to discover unique solutions that leave a meaningful impact in the world."
         }
       },
       "post4_2": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post4_3": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post4_4": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post4_5": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
-
       "post5_1": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post5_2": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post5_3": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post5_4": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post5_5": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
-
       "post6_1": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post6_2": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post6_3": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post6_4": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       },
       "post6_5": {
-        "image": "",
-        "imgDescription": "image description",
+        "image": {
+          "source": "designthinkingmindset",
+          "description": "A key to unlock your creative potential."
+        },
+
         "title": "Parts of a book",
-        "principalText": {
+        "principaltext": {
           "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
-          "main": "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+          "main": [
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
+            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+          ],
           "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
         }
       }

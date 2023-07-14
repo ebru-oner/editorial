@@ -1,67 +1,74 @@
-import { Typography, Grid } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 
 import images from "../assets/images";
 
 const ContentDetail = (props) => {
-  const epilogue = props.epilogue;
-  const prologue = props.prologue;
-  const main = props.main;
-  const image = props.image;
-  const imageDescription = props.imageDescription;
-  const randomNumber = (Math.floor(Math.random() * 13) + 1) % 2;
+  const quote = props.quote;
+  const epilogue = props.principalText.epilogue;
+  const prologue = props.principalText.prologue;
+  const main = props.principalText.main;
+  const image = props.image.source;
+  const imageDescription = props.image.description;
 
-  const ImageOnTheLeft = () => {
+  const Image = () => {
     return (
-      <Grid
-        container
-        spacing={2}
-        sx={{ marginTop: "1rem", marginBottom: "1rem", alignItems: "center" }}
-      >
-        <Grid item xs={12} md={3}>
-          <img
-            src={images[`${image}_600x600`]}
-            alt={imageDescription}
-            style={{ maxWidth: "100%", height: "auto" }}
-          />
-        </Grid>
-        <Grid item xs={12} md={9}>
-          <Typography variant="body1" sx={{ overflowWrap: "break-word" }}>
-            {main}
-          </Typography>
-        </Grid>
-      </Grid>
+      <Box>
+        <img
+          src={images[`${image}_1600x400`]}
+          alt={imageDescription}
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
+      </Box>
     );
   };
 
-  const ImageOnTheRight = () => {
+  const MainText = () => {
     return (
-      <Grid
-        container
-        spacing={2}
-        sx={{ marginTop: "1rem", marginBottom: "1rem", alignItems: "center" }}
-      >
-        <Grid item xs={12} md={9}>
-          <Typography variant="body1" sx={{ overflowWrap: "break-word" }}>
-            {main}
+      <Box sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+        {main.map((text, index) => (
+          <Typography
+            key={index}
+            variant="body1"
+            sx={{ overflowWrap: "break-word" }}
+          >
+            {text}
           </Typography>
-        </Grid>
-        <Grid item xs={12} md={3}>
-          <img
-            src={images[`${image}_600x600`]}
-            alt={imageDescription}
-            style={{ maxWidth: "100%", height: "auto" }}
-          />
-        </Grid>
-      </Grid>
+        ))}
+      </Box>
+    );
+  };
+
+  const Quote = () => {
+    return (
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          gap: "0.1rem",
+          backgroundColor: "secondary.dark",
+          color: "primary.dark",
+          padding: "6px",
+          opacity: 0.7,
+        }}
+      >
+        <Typography variant="subtitle1" sx={{ overflowWrap: "break-word" }}>
+          "{quote.text}""
+        </Typography>
+        <Typography variant="body1" sx={{ alignSelf: "end" }}>
+          {quote.owner}
+        </Typography>
+      </Box>
     );
   };
 
   return (
-    <>
-      <Typography variant="body1">{epilogue}</Typography>
-      {randomNumber === 0 ? <ImageOnTheLeft /> : <ImageOnTheRight />}
+    <Box sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+      {quote && <Quote />}
       <Typography variant="body1">{prologue}</Typography>
-    </>
+      <MainText />
+      <Typography variant="body1">{epilogue}</Typography>
+      <Image />
+    </Box>
   );
 };
 

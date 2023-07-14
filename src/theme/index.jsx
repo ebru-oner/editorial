@@ -40,6 +40,11 @@ const theme = createTheme({
     h3: {
       fontFamily: ["Shadows Into Light", "cursive"].join(","),
     },
+    subtitle1: {
+      fontFamily: ["Shadows Into Light", "cursive"].join(","),
+      fontStyle: "italic",
+      fontSize: 24,
+    },
     fontFamily: ["Shantell Sans", "cursive"].join(","),
   },
 });

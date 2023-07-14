@@ -34,7 +34,7 @@ const ContentPage = () => {
           overflow: "scroll",
         }}
       >
-        <HeroImage title={item.title} img={item.heroimg} withText={false} />
+        <HeroImage title={item.title} image={item.heroimage} withText={false} />
       </Grid>
       <Grid
         id="home-page-grid-hero-image"
@@ -47,9 +47,8 @@ const ContentPage = () => {
             key={index}
             header={chapters[chapterId].title}
             image={chapters[chapterId].image}
-            prologue={chapters[chapterId].principalText.prologue}
-            main={chapters[chapterId].principalText.main}
-            epilogue={chapters[chapterId].principalText.epilogue}
+            principalText={chapters[chapterId].principaltext}
+            quote={chapters[chapterId].quote}
           />
         ))}
       </Grid>

@@ -18,8 +18,8 @@ export default function CardButton(props) {
   const route = props.route;
   const title = props.title;
   const description = props.description;
-  const image = props.img;
-  const imageDescription = props.imageDescription;
+  const image = props.image.source;
+  const imageDescription = props.image.description;
 
   const clickHandler = () => {
     navigate(`data/${route}`);
@@ -37,14 +37,15 @@ export default function CardButton(props) {
       <CardMedia
         component="img"
         alt={imageDescription}
-        sx={{ height: "14rem" }}
+        sx={{ height: "14rem", cursor: "pointer" }}
         image={images[`${image}_600x600`]}
+        onClick={clickHandler}
       />
       <CardContent sx={{ height: "8rem" }}>
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
-        <Typography gutterBottom variant="subtitle1" component="div" noWrap>
+        <Typography gutterBottom variant="body1" component="div" noWrap>
           {description}
         </Typography>
       </CardContent>

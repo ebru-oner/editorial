@@ -10,8 +10,7 @@ const HeroImage = (props) => {
   const route = props.route;
   const title = props.title;
   const description = props.description;
-  const image = props.img;
-  const imageDescription = props.imageDescription;
+  const image = props.image.source;
   const withText = props.withText;
 
   function clickHandler() {
@@ -50,7 +49,7 @@ const HeroImage = (props) => {
             <Typography gutterBottom variant="h5" component="div">
               {title}
             </Typography>
-            <Typography gutterBottom variant="subtitle1" component="div" noWrap>
+            <Typography gutterBottom variant="body1" component="div" noWrap>
               {description}
             </Typography>
           </Box>

@@ -16,13 +16,13 @@ const DataAccordion = (props) => {
 
   const header = props.header;
   const image = props.image;
-  const imageDescription = props.imageDescription;
-  const prologue = props.prologue;
-  const epilogue = props.epilogue;
-  const main = props.main;
+  const quote = props.quote;
+  const principalText = props.principalText;
+
   function handleClick() {
     setOpen((pre) => !pre);
   }
+
   return (
     <Box id="data-accordion-box">
       <Accordion
@@ -31,22 +31,20 @@ const DataAccordion = (props) => {
           height: "100%",
           marginBottom: "2rem",
         }}
-        onClick={handleClick}
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="dataAccordion-content"
           id="dataAccordion-header"
+          onClick={handleClick}
         >
           <Typography variant="h5">{header}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <ContentDetail
-            prologue={prologue}
-            epilogue={epilogue}
-            main={main}
+            quote={quote}
+            principalText={principalText}
             image={image}
-            imageDescription={imageDescription}
           />
         </AccordionDetails>
       </Accordion>

@@ -32,7 +32,7 @@ const HomePage = () => {
           title={items.byId[latestPost].title}
           route={items.byId[latestPost].route}
           description={items.byId[latestPost].description}
-          img={items.byId[latestPost].img}
+          image={items.byId[latestPost].image.source}
           withText={true}
         />
       </Grid>
@@ -49,7 +49,7 @@ const HomePage = () => {
               sx={{ width: "100%" }}
             >
               <CardButton
-                img={item.img}
+                image={item.image}
                 route={item.route}
                 title={item.title}
                 description={item.description}
