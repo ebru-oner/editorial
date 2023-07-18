@@ -15,6 +15,7 @@ import tipsandtricks_1000x600 from "./1000x600/tipsandtricks.webp";
 import wireframes_1000x600 from "./1000x600/wireframes.webp";
 
 import designthinkingmindset_1600x400 from "./1600x400/designthinkingmindset.webp";
+import iteration_1600x400 from "./1600x400/iteration.webp";
 
 const images = {
   books_600x600,
@@ -34,6 +35,7 @@ const images = {
   wireframes_1000x600,
 
   designthinkingmindset_1600x400,
+  iteration_1600x400,
 };
 
 export default images;

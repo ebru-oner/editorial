@@ -417,17 +417,27 @@
       },
       "post4_2": {
         "image": {
-          "source": "designthinkingmindset",
-          "description": "A key to unlock your creative potential."
+          "source": "iteration",
+          "description": "Iteration of the universe"
         },
-        "title": "Parts of a book",
+        "title": "Iteration",
+        "quote": {
+          "text": "“Fail faster. Succeed sooner.",
+          "owner": "David Kelley, founder IDEO"
+        },
         "principaltext": {
-          "prologue": "Prologue:Sets the stage for the story by providing background information, introducing key characters, or establishing the setting. Also serve to create intrigue or capture the reader's attention by presenting a dramatic event or a scene from the future. They are typically used to provide essential information that is necessary for the reader to fully understand the story.",
+          "prologue": "Iteration in design thinking is a transformative journey of continuous learning and growth, rather than mere repetition. It unlocks the potential for creativity, resilience, and ultimately leads to the development of more user-centered and impactful solutions.",
           "main": [
-            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative.",
-            "Prologues and epilogues are optional components of a literary work, when used effectively, they can enhance the overall reading experience by providing additional depth, context, or closure to the narrative."
+            "The iteration begins once you understand the needs of the user and explore various ideas. It starts with prototyping, where you select the best ideas and create a simplified version(s) of your design(s).",
+            "Next comes the trial and error phase. During this stage you share your prototype, ask for feedback and observe the user actions, to capture the pain points and identify where your design resonates or falls short of expectations.",
+            "Based on the lessons learned you embark the journey of improvement. Refine and enhance your design until you reached your desired outcome.",
+            "A great example of iteration in design thinking is A/B testing. Here is how it works:",
+            "1. Create 2 versions (A and B) of your design. If it is a web site two version with different colors, layout, etc. Both solutions should offer the same functionality.",
+            "2. Split your users into two groupswith group A experiencing version A and group B version B.",
+            "3. Measure the results such as the times spent in the site or the number of click.",
+            "4. Learn from the results and make improvements based on your findings. You can create a version C to compare with the winner of A/B."
           ],
-          "epilogue": "Epilogue:Is a concluding section that comes after the main body of the work. It provides closure to the story by tying up loose ends, offering final thoughts or reflections, or revealing the ultimate fate of the characters. Epilogues can also provide a glimpse into the future, showing the long-term consequences or outcomes of the events that occurred in the main narrative. They are often used to provide a sense of resolution or to leave the reader with a lasting impression."
+          "epilogue": "At the end of your iteration cycle what you will have is rough sketches and ideas blossomed into marvels of innovation, precisely tailored to meet the desires and expectations ensuring an good user experience."
         }
       },
       "post4_3": {
