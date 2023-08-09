@@ -1,0 +1,8 @@
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  padding: 1.2rem;
+  line-height: 2.2rem;
+  font-size: large;
+}
