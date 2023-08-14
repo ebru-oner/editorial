@@ -1,0 +1,44 @@
+name: Linting Workflow
+
+# Controls when the workflow will run
+on:
+  push:
+    branches:
+      - "next*"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  lint:
+    name: lint next.js code
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout Repository
+      - uses: actions/checkout@v3
+
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: "npm"
+          cache-dependency-path: subdir/package-lock.json
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint # Adjust the linting script as defined in your project
+
+      - name: Check for ESLint Errors
+        run: |
+          eslint_exit_code=$?
+          if [ $eslint_exit_code -ne 0 ]; then
+            echo "ESLint found errors in the code. Please fix them before committing."
+            exit 1
+          fi
