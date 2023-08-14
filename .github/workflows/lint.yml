@@ -33,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Run ESLint
-        run: npm run lint # Adjust the linting script as defined in your project
+        run: next lint # Adjust the linting script as defined in your project
 
       - name: Check for ESLint Errors
         run: |
