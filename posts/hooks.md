@@ -1,5 +1,7 @@
 ---
+id: "hooks"
 title: "Building Better React Apps: Simplify and Organize Your Code with Hooks"
+summary: "some summary about hooks"
 date: "2023-08-07"
 quote:
   {

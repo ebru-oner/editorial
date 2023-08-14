@@ -22,9 +22,6 @@ export default function Post({ post }) {
             coverImage={post.coverImage}
             date={post.date}
           />
-          {/* <div className={utilStyles.lightText}> */}
-          {/* <Date dateString={postData.date} /> */}
-          {/* </div> */}
           <div className={utilStyles.quote}>
             {/* <p className={utilStyles.quoteContent}>{post.quote.content}</p>
           <p className={utilStyles.quoteAuthor}>{post.quote.author}</p> */}
@@ -38,7 +35,9 @@ export default function Post({ post }) {
 
 export async function getStaticProps({ params }) {
   const posts = getPostsBySlug(params.slug, [
+    "id",
     "title",
+    "summary",
     "date",
     "quote",
     "slug",

@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
 
+import { useRouter } from "next/router";
+import { roboto } from "../utils/fonts";
 import styles from "../styles/Home.module.css";
 
 const NavBar = () => {
@@ -8,13 +9,13 @@ const NavBar = () => {
 
   return (
     <header className={styles.navigation}>
-      <h4>Logo</h4>
+      <h4 className={roboto.className}>Logo</h4>
       <nav className={styles.navItems}>
         <Link
-          className={router.pathname === "/" ? `${styles.activeNavLink}` : ""}
+          classnames={router.pathname === "/" ? `${styles.activeNavLink}` : ""}
           href="/"
         >
-          Home
+          <h5 className={roboto.className}>Home</h5>
         </Link>
         <Link
           className={
@@ -22,7 +23,7 @@ const NavBar = () => {
           }
           href="/about"
         >
-          About
+          <h5 className={roboto.className}>About</h5>
         </Link>
         <Link
           className={
@@ -30,7 +31,7 @@ const NavBar = () => {
           }
           href="/contact"
         >
-          Contact
+          <h5 className={roboto.className}>Contact</h5>
         </Link>
       </nav>
     </header>

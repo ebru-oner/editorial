@@ -2,7 +2,36 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  padding: 1.2rem;
+  padding: 1.2rem 0;
   line-height: 2.2rem;
-  font-size: large;
+  font-size: 1.5rem;
+  color: #000807;
+}
+
+.markdown strong {
+  color: #f9844a;
+}
+
+.markdown em {
+  color: #258ca8;
+}
+
+.markdown h1 {
+  color: #c1121f;
+}
+
+.markdown h2 {
+  padding-top: 2rem;
+  color: #00509d;
+}
+
+.markdown pre {
+  color: #073b4c;
+  background-color: #f2e8cf;
+  padding: 1rem 3rem;
+  margin: 0 -1.2rem;
+}
+
+.markdown li {
+  margin-left: 3rem;
 }

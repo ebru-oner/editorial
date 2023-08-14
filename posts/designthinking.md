@@ -1,5 +1,7 @@
 ---
+id: "designthinking"
 title: "Design Thinking Mindset: Empowering Innovation Through Human-Centered Problem-Solving"
+summary: "some summary about dt"
 date: "2023-08-04"
 quote:
   {

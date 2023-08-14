@@ -1,15 +1,16 @@
 .container {
-  min-height: 100vh;
+  min-height: calc(100%-15rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f1edee;
+  background-color: #f9f7f3;
   padding: 1.2rem;
+  margin-bottom: 0;
 }
 
 .navigation {
-  background-color: #19647e;
+  background-color: #83c5be;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -19,14 +20,14 @@
 
 .navigation h4 {
   flex: 1;
-  color: #f1b555;
+  color: #003554;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin: 0;
 }
 
 .navigation nav {
-  background-color: #19647e;
+  background-color: #83c5be;
   display: flex;
 
   width: 100%;
@@ -35,17 +36,18 @@
 }
 
 .navItems a {
-  color: #f1b555;
+  color: #1e6091;
   text-decoration: none;
   margin: 0 10px;
   padding: 10px 10px;
   position: relative;
   z-index: 0;
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .activeNavLink {
-  border-bottom: 1px solid #f1b555;
+  border-bottom: 1px solid #1e6091;
 }
 
 .navItems a:before {
@@ -54,7 +56,7 @@
   width: 100%;
   height: 2px;
   transition: all 0.4s;
-  background: #f1b555;
+  background: #1e6091;
   content: "";
   opacity: 0;
   border: none;
@@ -80,12 +82,11 @@
   line-height: 1.15;
   font-size: 3rem;
   color: #ee964b;
-  font-family: "Roboto", sans-serif;
 }
 
 .title,
 .description {
-  text-align: flex-end;
+  text-align: right;
 }
 
 .description {
@@ -108,10 +109,10 @@
   padding-bottom: 0.5rem;
   text-align: left;
   text-decoration: none;
-  border: 1.5px solid #19647e;
+  border: 1.5px solid #4f6d7a;
   border-radius: 5px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  background-color: #f1edee;
+  background-color: #f9f7f3;
 }
 
 .card:hover,
@@ -124,7 +125,7 @@
 .card h3 {
   font-size: 1.25rem;
   font-family: "Roboto", sans-serif;
-  color: #28afb0;
+  color: #4f6d7a;
   padding: 0 0.5em;
 }
 
@@ -132,7 +133,7 @@
   margin: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #19647e;
+  color: #4f6d7a;
   padding: 0 0.5em;
   display: -webkit-box;
   -webkit-line-clamp: 2; /* Show only two lines */
@@ -163,23 +164,23 @@
   gap: 10px;
   margin-top: 10px;
   padding: 0 0.5em;
+  font-family: "Roboto", sans-serif;
 }
 
 .buttonsContainer a {
   padding: 0.3rem;
-  background-color: #f4d35e;
   border: 1.5px solid #f4d35e;
-  color: #19647e;
+  color: #4f6d7a;
   cursor: pointer;
   border-radius: 0.3rem;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding-top: 0.5rem;
 }
 
 .button:hover {
   background-color: #686963;
-  color: #f1edee;
+  color: #f9f7f3;
 }
 
 .icon {
@@ -189,6 +190,18 @@
 
 .logo {
   height: 1em;
+}
+
+.footer {
+  background: #bee3db;
+  width: 100%;
+  height: 5rem;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #003554;
 }
 
 @media (max-width: 600px) {

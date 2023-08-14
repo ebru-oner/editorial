@@ -12,10 +12,18 @@ const CoverImage = ({ title, src, slug }) => {
       })}
       width={1300}
       height={630}
+      style={{ width: "100%" }}
     />
   );
+
+  const containerStyles = {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+  };
+
   return (
-    <div className="sm:mx-0">
+    <div style={containerStyles}>
       {slug ? (
         <Link as={`/posts/${slug}`} href="/posts/[slug]" aria-label={title}>
           {image}
