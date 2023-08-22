@@ -1,6 +1,6 @@
 ---
 id: "userefhook"
-title: "Exploring the Power of useRef Hooks: Persist values and access DOM elements with ‘useRef’"
+title: "Exploring the Power of useRef Hook: Persist values and access DOM elements with ‘useRef’"
 summary: "some summary about hooks"
 date: "2023-08-07"
 quote:

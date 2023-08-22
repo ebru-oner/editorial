@@ -1,6 +1,6 @@
 ---
 id: "usestatehook"
-title: "Exploring the Power of useState Hooks: Empower user interactions with ‘useState‘"
+title: "Exploring the Power of useState Hook: Empower user interactions with ‘useState‘"
 summary: "some summary about hooks"
 date: "2023-08-07"
 quote:

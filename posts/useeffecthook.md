@@ -1,6 +1,6 @@
 ---
 id: "useeffecthook"
-title: "Exploring the Power of useEffect Hooks: Manage React Side Effects for a Seamless User Experience"
+title: "Exploring the Power of useEffect Hook: Manage React Side Effects for a Seamless User Experience"
 summary: "some summary about hooks"
 date: "2023-08-07"
 quote:
