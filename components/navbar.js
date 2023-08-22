@@ -1,8 +1,8 @@
 import Link from "next/link";
-
 import { useRouter } from "next/router";
+
 import { roboto } from "../utils/fonts";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/general-styles.module.css";
 
 const NavBar = () => {
   const router = useRouter();

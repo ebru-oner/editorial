@@ -192,6 +192,12 @@
   height: 1em;
 }
 
+.coverimage {
+  width: "100%";
+  display: "flex";
+  justify-content: "center";
+}
+
 .footer {
   background: #bee3db;
   width: 100%;

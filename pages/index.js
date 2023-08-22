@@ -3,7 +3,7 @@ import Link from "next/link";
 import classnames from "classnames";
 
 import Layout from "../components/Layout";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/general-styles.module.css";
 import { getAllPosts } from "../lib/api";
 import { shantell } from "../utils/fonts";
 

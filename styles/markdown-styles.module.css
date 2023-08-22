@@ -2,9 +2,9 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  padding: 1.2rem 0;
-  line-height: 2.2rem;
-  font-size: 1.5rem;
+  padding-bottom: 0.6rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
   color: #000807;
 }
 
@@ -17,12 +17,34 @@
 }
 
 .markdown h1 {
-  color: #c1121f;
+  font-size: 2rem;
+  margin: 1.8rem 0;
+  color: brown;
+  border-bottom: brown solid 1px;
+  text-align: right;
 }
 
 .markdown h2 {
-  padding-top: 2rem;
-  color: #00509d;
+  font-size: 1.8rem;
+  margin: 1.6rem 0;
+  color: #073b4c;
+  border-bottom: #073b4c solid 1px;
+  text-align: center;
+}
+
+.markdown h3 {
+  font-size: 1.6rem;
+  padding-top: 1.4rem;
+  color: darkcyan;
+  text-align: left;
+}
+
+.markdown h4 {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  color: indianred;
+  text-align: left;
+  margin: 0.5rem 0;
 }
 
 .markdown pre {
@@ -33,5 +55,11 @@
 }
 
 .markdown li {
-  margin-left: 3rem;
+  margin-left: 1.5rem;
+  list-style: lower-roman;
+}
+
+.markdown a {
+  color: darkgoldenrod;
+  border-bottom: darkgoldenrod solid 1px;
 }

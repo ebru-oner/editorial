@@ -6,13 +6,12 @@ import PostBody from "../../components/postBody";
 import PostHeader from "../../components/postHeader";
 import { getAllPosts, getPostsBySlug } from "../../lib/api";
 import markdownToHtml from "../../lib/markdownToHtml";
-import utilStyles from "../../styles/utils.module.css";
 
 export default function Post({ post }) {
   return (
     <Layout>
       <Container>
-        <article className="mb-32">
+        <article>
           <Head>
             <meta property="og:image" content={post.ogImage.url} />
             <title>{post.title}</title>
@@ -22,10 +21,6 @@ export default function Post({ post }) {
             coverImage={post.coverImage}
             date={post.date}
           />
-          <div className={utilStyles.quote}>
-            {/* <p className={utilStyles.quoteContent}>{post.quote.content}</p>
-          <p className={utilStyles.quoteAuthor}>{post.quote.author}</p> */}
-          </div>
           <PostBody content={post.content} />
         </article>
       </Container>
