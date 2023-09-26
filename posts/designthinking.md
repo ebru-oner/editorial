@@ -1,7 +1,7 @@
 ---
 id: "designthinking"
 title: "Design Thinking Mindset: Empowering Innovation Through Human-Centered Problem-Solving"
-summary: "some summary about dt"
+summary: "One of the most transformative and innovative concept to reshape the way you approach problem-solving."
 date: "2023-08-04"
 quote:
   {
