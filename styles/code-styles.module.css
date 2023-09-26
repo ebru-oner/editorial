@@ -1,0 +1,16 @@
+.code p,
+.code div {
+  padding-bottom: 0.6rem;
+  line-height: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.comment {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.codesnippet {
+  color: slategrey;
+  font-family: "Courier New", Courier, monospace;
+}

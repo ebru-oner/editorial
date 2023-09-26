@@ -11,12 +11,12 @@ export default function Home({ allPosts }) {
   return (
     <Layout>
       <Head>
-        <title>Web developer essentials</title>
+        <title>Software developer essentials</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.mainContainer}>
         <h1 className={classnames(styles.title, shantell.className)}>
-          Navigating the Art and Science of Web Development
+          Navigating the Art and Science of Software Development
         </h1>
 
         <div className={styles.grid}>
@@ -37,9 +37,7 @@ export default function Home({ allPosts }) {
                   {post.title.split(":")[0].trim()}
                 </h3>
               </Link>
-              <p className={shantell.className}>
-                How to unlock your creative potential.
-              </p>
+              <p className={shantell.className}>{post.summary}</p>
               <div className={styles.buttonsContainer}>
                 <Link href={`/posts/${post.id}`}>Read more</Link>
               </div>
